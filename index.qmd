@@ -113,28 +113,18 @@ Live Streamlit application:
 ::: {.grid}
 
 ::: {.g-col-4}
-### GMV Portfolio
-- **Annualized Return**: X.XX%
-- **Volatility**: X.XX%
-- **Sharpe Ratio**: X.XX
-- **Max Drawdown**: X.XX%
+### GMV Portfolio with Short-Selling
+- **Annualized Return**: -5.48%
+- **Volatility**: 4.45%
 :::
 
-::: {.g-col-4}
-### MSR Portfolio
-- **Annualized Return**: X.XX%
-- **Volatility**: X.XX%
-- **Sharpe Ratio**: X.XX
-- **Max Drawdown**: X.XX%
-:::
 
 ::: {.g-col-4}
-### Equal-Weighted
-- **Annualized Return**: X.XX%
-- **Volatility**: X.XX%
-- **Sharpe Ratio**: X.XX
-- **Max Drawdown**: X.XX%
+### GMV Portfolio without Short-Selling
+- **Annualized Return**: -5.47%
+- **Volatility**: 4.45%
 :::
+
 
 :::
 
