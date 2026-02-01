@@ -9,7 +9,7 @@ This project presents a comprehensive implementation of the **Markowitz Mean-Var
 
 ::: {.callout-note icon=false}
 ## Project Overview
-This work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, MSR, efficient frontier), and validate performance through out-of-sample backtesting.
+This work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, efficient frontier), and validate performance through out-of-sample backtesting.
 :::
 
 ## Project Components
@@ -23,7 +23,7 @@ Complete Jupyter notebook implementation:
 
 - **Data Acquisition**: Historical CSX equity prices
 - **Exploratory Analysis**: Returns, correlations, distributions
-- **Portfolio Optimization**: GMV, MSR, efficient frontier
+- **Portfolio Optimization**: GMV, efficient frontier
 - **Backtesting**: Out-of-sample performance validation
 - **Sensitivity Analysis**: Parameter robustness testing
 
@@ -65,8 +65,8 @@ Live Streamlit application:
 
 - **Real-time Optimization**: Adjust constraints interactively
 - **Visual Exploration**: Interactive efficient frontier
-- **Portfolio Comparison**: GMV vs MSR vs Equal-weighted
-- **Performance Metrics**: Returns, volatility, Sharpe ratio
+- **Portfolio Comparison**: GMV vs Equal-weighted
+- **Performance Metrics**: Returns, volatility
 - **Backtesting Results**: Historical performance
 
 [Launch App →](https://csxmarkowitzportfoliooptimzation-efpq4vg6kvbfwf6svdikkp.streamlit.app){.btn .btn-primary target="_blank"}
@@ -77,7 +77,7 @@ Live Streamlit application:
 ## Key Features
 
 - ✓ **Complete Data Pipeline** - From raw CSX data to optimized portfolios
-- ✓ **Analytical Solutions** - Closed-form GMV and MSR portfolios
+- ✓ **Analytical Solutions** - Closed-form GMV 
 - ✓ **Numerical Optimization** - Efficient frontier construction
 - ✓ **Rigorous Validation** - Out-of-sample backtesting
 - ✓ **Sensitivity Analysis** - Robustness to parameter changes
@@ -100,7 +100,7 @@ Live Streamlit application:
 ### 3. Backtesting & Validation
 - Out-of-sample performance testing
 - Comparison with benchmark (equal-weighted)
-- Risk metrics (volatility, max drawdown)
+- Risk metrics (volatility)
 - Return metrics (cumulative, annualized)
 
 ### 4. Sensitivity Analysis

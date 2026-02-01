@@ -18,49 +18,49 @@
     "href": "index.html",
     "title": "CSX Portfolio Optimization",
     "section": "",
-    "text": "This project presents a comprehensive implementation of the Markowitz Mean-Variance Portfolio Optimization model applied to CSX (Cambodia Securities Exchange) equities. We demonstrate the complete workflow from data acquisition to backtesting, providing both analytical and numerical solutions.\n\n\n\n\n\n\nNoteProject Overview\n\n\n\nThis work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, MSR, efficient frontier), and validate performance through out-of-sample backtesting."
+    "text": "This project presents a comprehensive implementation of the Markowitz Mean-Variance Portfolio Optimization model applied to CSX (Cambodia Securities Exchange) equities. We demonstrate the complete workflow from data acquisition to backtesting, providing both analytical and numerical solutions.\n\n\n\n\n\n\nNoteProject Overview\n\n\n\nThis work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, efficient frontier), and validate performance through out-of-sample backtesting."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "CSX Portfolio Optimization",
     "section": "",
-    "text": "This project presents a comprehensive implementation of the Markowitz Mean-Variance Portfolio Optimization model applied to CSX (Cambodia Securities Exchange) equities. We demonstrate the complete workflow from data acquisition to backtesting, providing both analytical and numerical solutions.\n\n\n\n\n\n\nNoteProject Overview\n\n\n\nThis work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, MSR, efficient frontier), and validate performance through out-of-sample backtesting."
+    "text": "This project presents a comprehensive implementation of the Markowitz Mean-Variance Portfolio Optimization model applied to CSX (Cambodia Securities Exchange) equities. We demonstrate the complete workflow from data acquisition to backtesting, providing both analytical and numerical solutions.\n\n\n\n\n\n\nNoteProject Overview\n\n\n\nThis work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, efficient frontier), and validate performance through out-of-sample backtesting."
   },
   {
     "objectID": "index.html#project-components",
     "href": "index.html#project-components",
     "title": "CSX Portfolio Optimization",
     "section": "Project Components",
-    "text": "Project Components\n\n\n💻 Source Code\nComplete Jupyter notebook implementation:\n\nData Acquisition: Historical CSX equity prices\nExploratory Analysis: Returns, correlations, distributions\nPortfolio Optimization: GMV, MSR, efficient frontier\nBacktesting: Out-of-sample performance validation\nSensitivity Analysis: Parameter robustness testing\n\nView Notebook →\n\n\n📊 Presentation Slides\nProfessional presentation covering:\n\nTheoretical Framework: Markowitz MPT foundations\nMethodology: Optimization algorithms\nResults: Portfolio performance metrics\nVisualizations: Efficient frontier, allocations\nConclusions: Key findings and insights\n\nView Slides →\n\n\n📄 Project Report\nComprehensive written report:\n\nIntroduction: Problem statement and objectives\nLiterature Review: MPT and portfolio theory\nMethodology: Data and optimization approach\nResults & Discussion: Findings and interpretation\nConclusion: Summary and future work\n\nView Report →\n\n\n🚀 Interactive App\nLive Streamlit application:\n\nReal-time Optimization: Adjust constraints interactively\nVisual Exploration: Interactive efficient frontier\nPortfolio Comparison: GMV vs MSR vs Equal-weighted\nPerformance Metrics: Returns, volatility, Sharpe ratio\nBacktesting Results: Historical performance\n\nLaunch App →"
+    "text": "Project Components\n\n\n💻 Source Code\nComplete Jupyter notebook implementation:\n\nData Acquisition: Historical CSX equity prices\nExploratory Analysis: Returns, correlations, distributions\nPortfolio Optimization: GMV, efficient frontier\nBacktesting: Out-of-sample performance validation\nSensitivity Analysis: Parameter robustness testing\n\nView Notebook →\n\n\n📊 Presentation Slides\nProfessional presentation covering:\n\nTheoretical Framework: Markowitz MPT foundations\nMethodology: Optimization algorithms\nResults: Portfolio performance metrics\nVisualizations: Efficient frontier, allocations\nConclusions: Key findings and insights\n\nView Slides →\n\n\n📄 Project Report\nComprehensive written report:\n\nIntroduction: Problem statement and objectives\nLiterature Review: MPT and portfolio theory\nMethodology: Data and optimization approach\nResults & Discussion: Findings and interpretation\nConclusion: Summary and future work\n\nView Report →\n\n\n🚀 Interactive App\nLive Streamlit application:\n\nReal-time Optimization: Adjust constraints interactively\nVisual Exploration: Interactive efficient frontier\nPortfolio Comparison: GMV vs Equal-weighted\nPerformance Metrics: Returns, volatility\nBacktesting Results: Historical performance\n\nLaunch App →"
   },
   {
     "objectID": "index.html#key-features",
     "href": "index.html#key-features",
     "title": "CSX Portfolio Optimization",
     "section": "Key Features",
-    "text": "Key Features\n\n✓ Complete Data Pipeline - From raw CSX data to optimized portfolios\n✓ Analytical Solutions - Closed-form GMV and MSR portfolios\n✓ Numerical Optimization - Efficient frontier construction\n✓ Rigorous Validation - Out-of-sample backtesting\n✓ Sensitivity Analysis - Robustness to parameter changes\n✓ Interactive Visualization - Streamlit web application"
+    "text": "Key Features\n\n✓ Complete Data Pipeline - From raw CSX data to optimized portfolios\n✓ Analytical Solutions - Closed-form GMV\n✓ Numerical Optimization - Efficient frontier construction\n✓ Rigorous Validation - Out-of-sample backtesting\n✓ Sensitivity Analysis - Robustness to parameter changes\n✓ Interactive Visualization - Streamlit web application"
   },
   {
     "objectID": "index.html#methodology",
     "href": "index.html#methodology",
     "title": "CSX Portfolio Optimization",
     "section": "Methodology",
-    "text": "Methodology\n\n1. Data Acquisition & Preprocessing\n\nHistorical price data for CSX equities\nReturn calculation and outlier handling\nMissing data imputation\nStatistical validation\n\n\n\n2. Portfolio Optimization\n\nGlobal Minimum Variance (GMV): Lowest risk portfolio\nMaximum Sharpe Ratio (MSR): Best risk-adjusted returns\nEfficient Frontier: Risk-return tradeoff curve\nLong-only constraints: Realistic portfolio constraints\n\n\n\n3. Backtesting & Validation\n\nOut-of-sample performance testing\nComparison with benchmark (equal-weighted)\nRisk metrics (volatility, max drawdown)\nReturn metrics (cumulative, annualized)\n\n\n\n4. Sensitivity Analysis\n\nImpact of estimation window\nEffect of rebalancing frequency\nRobustness to parameter choices"
+    "text": "Methodology\n\n1. Data Acquisition & Preprocessing\n\nHistorical price data for CSX equities\nReturn calculation and outlier handling\nMissing data imputation\nStatistical validation\n\n\n\n2. Portfolio Optimization\n\nGlobal Minimum Variance (GMV): Lowest risk portfolio\nMaximum Sharpe Ratio (MSR): Best risk-adjusted returns\nEfficient Frontier: Risk-return tradeoff curve\nLong-only constraints: Realistic portfolio constraints\n\n\n\n3. Backtesting & Validation\n\nOut-of-sample performance testing\nComparison with benchmark (equal-weighted)\nRisk metrics (volatility)\nReturn metrics (cumulative, annualized)\n\n\n\n4. Sensitivity Analysis\n\nImpact of estimation window\nEffect of rebalancing frequency\nRobustness to parameter choices"
   },
   {
     "objectID": "index.html#results-summary",
     "href": "index.html#results-summary",
     "title": "CSX Portfolio Optimization",
     "section": "Results Summary",
-    "text": "Results Summary\n\n\nGMV Portfolio\n\nAnnualized Return: X.XX%\nVolatility: X.XX%\nSharpe Ratio: X.XX\nMax Drawdown: X.XX%\n\n\n\nMSR Portfolio\n\nAnnualized Return: X.XX%\nVolatility: X.XX%\nSharpe Ratio: X.XX\nMax Drawdown: X.XX%\n\n\n\nEqual-Weighted\n\nAnnualized Return: X.XX%\nVolatility: X.XX%\nSharpe Ratio: X.XX\nMax Drawdown: X.XX%"
+    "text": "Results Summary\n\n\nGMV Portfolio with Short-Selling\n\nAnnualized Return: -5.48%\nVolatility: 4.45%\n\n\n\nGMV Portfolio without Short-Selling\n\nAnnualized Return: -5.47%\nVolatility: 4.45%"
   },
   {
     "objectID": "index.html#about-this-project",
     "href": "index.html#about-this-project",
     "title": "CSX Portfolio Optimization",
     "section": "About This Project",
-    "text": "About This Project\n\nAuthor\nLeng Devid\n\n\nSupervisor\nProfessor: Dr. LUEY Sokea\n\n\nAcademic Context\nThis project was developed as part of advanced coursework in Portfolio Management and Quantitative Finance, demonstrating the application of Modern Portfolio Theory to emerging market equities (Cambodia Securities Exchange).\n\n\n\n\n\n\n\nTipGetting Started\n\n\n\n\nFor a quick overview, start with the Presentation Slides\nFor complete methodology and results, read the Project Report\nFor technical implementation details, explore the Source Code\nFor interactive exploration, try the Streamlit App\nAll code and data are available on GitHub"
+    "text": "About This Project\n\nAuthor\nLeng Devid\n\n\nSupervisor\nProfessor: Mr. Toem Touch\n\n\nAcademic Context\nThis project was developed as part of advanced coursework in Portfolio Management and Quantitative Finance, demonstrating the application of Modern Portfolio Theory to emerging market equities (Cambodia Securities Exchange).\n\n\n\n\n\n\n\nTipGetting Started\n\n\n\n\nFor a quick overview, start with the Presentation Slides\nFor complete methodology and results, read the Project Report\nFor technical implementation details, explore the Source Code\nFor interactive exploration, try the Streamlit App\nAll code and data are available on GitHub"
   },
   {
     "objectID": "Presentation_Slide/index.html#download",
