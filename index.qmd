@@ -59,7 +59,7 @@ Comprehensive written report:
 :::
 
 ::: {.g-col-3}
-### 🚀 [Interactive App](https://streamlit.io)
+### 🚀 [Interactive App](https://csxmarkowitzportfoliooptimzation-efpq4vg6kvbfwf6svdikkp.streamlit.app)
 
 Live Streamlit application:
 
@@ -69,7 +69,7 @@ Live Streamlit application:
 - **Performance Metrics**: Returns, volatility, Sharpe ratio
 - **Backtesting Results**: Historical performance
 
-[Launch App →](https://streamlit.io){.btn .btn-primary target="_blank"}
+[Launch App →](https://csxmarkowitzportfoliooptimzation-efpq4vg6kvbfwf6svdikkp.streamlit.app){.btn .btn-primary target="_blank"}
 :::
 
 :::
@@ -156,6 +156,6 @@ This project was developed as part of advanced coursework in Portfolio Managemen
 - For a quick overview, start with the [**Presentation Slides**](Presentation_Slide/index.qmd)
 - For complete methodology and results, read the [**Project Report**](Project_Report/index.qmd)
 - For technical implementation details, explore the [**Source Code**](Source_Code/CSX_Portfolio_Optimization.ipynb)
-- For interactive exploration, try the [**Streamlit App**](https://streamlit.io)
+- For interactive exploration, try the [**Streamlit App**](https://csxmarkowitzportfoliooptimzation-efpq4vg6kvbfwf6svdikkp.streamlit.app)
 - All code and data are available on [**GitHub**](https://github.com/LENGDEVID/1_CSX_Markowitz_Portfolio_Optimzation)
 :::
