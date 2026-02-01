@@ -134,7 +134,7 @@ Live Streamlit application:
 **Leng Devid**
 
 ### Supervisor
-**Professor: Dr. LUEY Sokea**
+**Professor: Mr. Toem Touch**
 
 ### Academic Context
 This project was developed as part of advanced coursework in Portfolio Management and Quantitative Finance, demonstrating the application of Modern Portfolio Theory to emerging market equities (Cambodia Securities Exchange).
