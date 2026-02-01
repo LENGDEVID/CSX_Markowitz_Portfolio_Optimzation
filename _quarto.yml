@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CSX Portfolio Optimization"
+  description: "Markowitz Mean-Variance Portfolio Optimization using CSX Equities"
+  favicon: favicon.png
+  
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Source Code"
+        href: Source_Code/CSX_Portfolio_Optimization.ipynb
+      - text: "Presentation"
+        href: Presentation_Slide/index.qmd
+      - text: "Report"
+        href: Project_Report/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/LENGDEVID/1_CSX_Markowitz_Portfolio_Optimzation
+        aria-label: GitHub Repository
+  
+  page-footer:
+    left: "© 2026 Leng Devid"
+    right: "Supervisor: Dr. LUEY Sokea"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto  # Cache notebook execution

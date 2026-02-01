@@ -1,0 +1,161 @@
+---
+title: "CSX Portfolio Optimization"
+subtitle: "Markowitz Mean-Variance Model Implementation"
+---
+
+## Welcome
+
+This project presents a comprehensive implementation of the **Markowitz Mean-Variance Portfolio Optimization** model applied to CSX (Cambodia Securities Exchange) equities. We demonstrate the complete workflow from data acquisition to backtesting, providing both analytical and numerical solutions.
+
+::: {.callout-note icon=false}
+## Project Overview
+This work implements the foundational Modern Portfolio Theory (MPT) framework for portfolio construction. We analyze historical CSX equity data, construct optimal portfolios (GMV, MSR, efficient frontier), and validate performance through out-of-sample backtesting.
+:::
+
+## Project Components
+
+::: {.grid}
+
+::: {.g-col-3}
+### 💻 [Source Code](Source_Code/CSX_Portfolio_Optimization.ipynb)
+
+Complete Jupyter notebook implementation:
+
+- **Data Acquisition**: Historical CSX equity prices
+- **Exploratory Analysis**: Returns, correlations, distributions
+- **Portfolio Optimization**: GMV, MSR, efficient frontier
+- **Backtesting**: Out-of-sample performance validation
+- **Sensitivity Analysis**: Parameter robustness testing
+
+[View Notebook →](Source_Code/CSX_Portfolio_Optimization.ipynb){.btn .btn-primary}
+:::
+
+::: {.g-col-3}
+### 📊 [Presentation Slides](Presentation_Slide/index.qmd)
+
+Professional presentation covering:
+
+- **Theoretical Framework**: Markowitz MPT foundations
+- **Methodology**: Optimization algorithms
+- **Results**: Portfolio performance metrics
+- **Visualizations**: Efficient frontier, allocations
+- **Conclusions**: Key findings and insights
+
+[View Slides →](Presentation_Slide/index.qmd){.btn .btn-primary}
+:::
+
+::: {.g-col-3}
+### 📄 [Project Report](Project_Report/index.qmd)
+
+Comprehensive written report:
+
+- **Introduction**: Problem statement and objectives
+- **Literature Review**: MPT and portfolio theory
+- **Methodology**: Data and optimization approach
+- **Results & Discussion**: Findings and interpretation
+- **Conclusion**: Summary and future work
+
+[View Report →](Project_Report/index.qmd){.btn .btn-primary}
+:::
+
+::: {.g-col-3}
+### 🚀 [Interactive App](https://streamlit.io)
+
+Live Streamlit application:
+
+- **Real-time Optimization**: Adjust constraints interactively
+- **Visual Exploration**: Interactive efficient frontier
+- **Portfolio Comparison**: GMV vs MSR vs Equal-weighted
+- **Performance Metrics**: Returns, volatility, Sharpe ratio
+- **Backtesting Results**: Historical performance
+
+[Launch App →](https://streamlit.io){.btn .btn-primary target="_blank"}
+:::
+
+:::
+
+## Key Features
+
+- ✓ **Complete Data Pipeline** - From raw CSX data to optimized portfolios
+- ✓ **Analytical Solutions** - Closed-form GMV and MSR portfolios
+- ✓ **Numerical Optimization** - Efficient frontier construction
+- ✓ **Rigorous Validation** - Out-of-sample backtesting
+- ✓ **Sensitivity Analysis** - Robustness to parameter changes
+- ✓ **Interactive Visualization** - Streamlit web application
+
+## Methodology
+
+### 1. Data Acquisition & Preprocessing
+- Historical price data for CSX equities
+- Return calculation and outlier handling
+- Missing data imputation
+- Statistical validation
+
+### 2. Portfolio Optimization
+- **Global Minimum Variance (GMV)**: Lowest risk portfolio
+- **Maximum Sharpe Ratio (MSR)**: Best risk-adjusted returns
+- **Efficient Frontier**: Risk-return tradeoff curve
+- **Long-only constraints**: Realistic portfolio constraints
+
+### 3. Backtesting & Validation
+- Out-of-sample performance testing
+- Comparison with benchmark (equal-weighted)
+- Risk metrics (volatility, max drawdown)
+- Return metrics (cumulative, annualized)
+
+### 4. Sensitivity Analysis
+- Impact of estimation window
+- Effect of rebalancing frequency
+- Robustness to parameter choices
+
+## Results Summary
+
+::: {.grid}
+
+::: {.g-col-4}
+### GMV Portfolio
+- **Annualized Return**: X.XX%
+- **Volatility**: X.XX%
+- **Sharpe Ratio**: X.XX
+- **Max Drawdown**: X.XX%
+:::
+
+::: {.g-col-4}
+### MSR Portfolio
+- **Annualized Return**: X.XX%
+- **Volatility**: X.XX%
+- **Sharpe Ratio**: X.XX
+- **Max Drawdown**: X.XX%
+:::
+
+::: {.g-col-4}
+### Equal-Weighted
+- **Annualized Return**: X.XX%
+- **Volatility**: X.XX%
+- **Sharpe Ratio**: X.XX
+- **Max Drawdown**: X.XX%
+:::
+
+:::
+
+## About This Project
+
+### Author
+**Leng Devid**
+
+### Supervisor
+**Professor: Dr. LUEY Sokea**
+
+### Academic Context
+This project was developed as part of advanced coursework in Portfolio Management and Quantitative Finance, demonstrating the application of Modern Portfolio Theory to emerging market equities (Cambodia Securities Exchange).
+
+---
+
+::: {.callout-tip}
+## Getting Started
+- For a quick overview, start with the [**Presentation Slides**](Presentation_Slide/index.qmd)
+- For complete methodology and results, read the [**Project Report**](Project_Report/index.qmd)
+- For technical implementation details, explore the [**Source Code**](Source_Code/CSX_Portfolio_Optimization.ipynb)
+- For interactive exploration, try the [**Streamlit App**](https://streamlit.io)
+- All code and data are available on [**GitHub**](https://github.com/LENGDEVID/1_CSX_Markowitz_Portfolio_Optimzation)
+:::

@@ -1,0 +1,37 @@
+---
+title: "Presentation Slides"
+subtitle: "CSX Portfolio Optimization - Markowitz Mean-Variance Model"
+---
+
+## View Presentation
+
+<iframe src="CSX_Presentaion_Slide.pdf" width="100%" height="800px" style="border: 1px solid #dee2e6; border-radius: 0.375rem;"></iframe>
+
+---
+
+## Download
+
+[📥 Download PDF](CSX_Presentaion_Slide.pdf){.btn .btn-primary}
+
+---
+
+## Presentation Overview
+
+This presentation covers:
+
+- **Introduction**: Portfolio optimization problem and objectives
+- **Theoretical Framework**: Markowitz Mean-Variance Theory
+- **Data & Methodology**: CSX equity data and optimization approach
+- **Results**: Optimal portfolio allocations and performance
+- **Efficient Frontier**: Risk-return tradeoff visualization
+- **Backtesting**: Out-of-sample validation results
+- **Conclusion**: Key findings and insights
+
+---
+
+::: {.callout-tip}
+## Navigation
+- Use the navigation bar above to explore other sections
+- [View Source Code](../Source_Code/CSX_Portfolio_Optimization.ipynb) for implementation details
+- [Read Project Report](../Project_Report/index.qmd) for comprehensive documentation
+:::
